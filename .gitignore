@@ -1,3 +1,4 @@
 *.swp
 *.sqlite
 token
+__pycache__/
