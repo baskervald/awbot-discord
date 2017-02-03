@@ -46,7 +46,7 @@ class Expression:
                 elif buf != '':
                     self.failed = True
                     return False
-            else:
+            elif c is not ' ':
                 buf += c
         if wait is not 0:
             self.failed = True
